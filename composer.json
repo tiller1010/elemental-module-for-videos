@@ -1,0 +1,12 @@
+{
+    "name": "tyler/elemental-extension",
+    "require": {
+        "dnadesign/silverstripe-elemental": "^4"
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    }
+}
+

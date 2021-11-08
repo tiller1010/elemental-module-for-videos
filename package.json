@@ -1,0 +1,19 @@
+{
+  "name": "elemental-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "@silverstripe/webpack-config": "^1.7.0"
+  }
+}

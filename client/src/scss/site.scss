@@ -1,0 +1,23 @@
+.grid-element{
+	display: flex;
+	flex-wrap: wrap;
+	.grid-section-container{
+		.grid-section-space{
+			padding: 20px;
+		}
+	}
+}
+
+@for $i from 0 through 100{
+	.desktop-width-#{$i}{
+		width: #{$i * 1%};
+	}
+}
+
+@media (max-width: 815px){
+	@for $i from 0 through 100{
+		.phone-width-#{$i}{
+			width: #{$i * 1%};
+		}
+	}
+}
